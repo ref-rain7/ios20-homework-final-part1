@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA091EB625BE597000DA58DF /* CGImage+ArrayBGRA.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA091EB525BE597000DA58DF /* CGImage+ArrayBGRA.swift */; };
+		DA091EB925BE652200DA58DF /* ARGBColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA091EB825BE652200DA58DF /* ARGBColor.swift */; };
+		DA091EBE25BEE7A800DA58DF /* BackgroundSelectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA091EBD25BEE7A800DA58DF /* BackgroundSelectionTableViewController.swift */; };
+		DA091EC425BF2B3E00DA58DF /* DeepLabV3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DA091EC325BF2B3E00DA58DF /* DeepLabV3.mlmodel */; };
 		DA0B77BE25BD810600E008A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0B77BD25BD810600E008A8 /* AppDelegate.swift */; };
 		DA0B77C025BD810600E008A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0B77BF25BD810600E008A8 /* SceneDelegate.swift */; };
-		DA0B77C225BD810600E008A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0B77C125BD810600E008A8 /* ViewController.swift */; };
+		DA0B77C225BD810600E008A8 /* ImageSegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0B77C125BD810600E008A8 /* ImageSegmentViewController.swift */; };
 		DA0B77C525BD810600E008A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA0B77C325BD810600E008A8 /* Main.storyboard */; };
 		DA0B77C725BD810700E008A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA0B77C625BD810700E008A8 /* Assets.xcassets */; };
 		DA0B77CA25BD810700E008A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA0B77C825BD810700E008A8 /* LaunchScreen.storyboard */; };
+		DA0B77DB25BDA22C00E008A8 /* SegmentClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0B77DA25BDA22C00E008A8 /* SegmentClass.swift */; };
+		DA0B77DE25BDDDEF00E008A8 /* CGImage&UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0B77DD25BDDDEF00E008A8 /* CGImage&UIImage+Resize.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA091EB525BE597000DA58DF /* CGImage+ArrayBGRA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImage+ArrayBGRA.swift"; sourceTree = "<group>"; };
+		DA091EB825BE652200DA58DF /* ARGBColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARGBColor.swift; sourceTree = "<group>"; };
+		DA091EBD25BEE7A800DA58DF /* BackgroundSelectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundSelectionTableViewController.swift; sourceTree = "<group>"; };
+		DA091EC325BF2B3E00DA58DF /* DeepLabV3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DeepLabV3.mlmodel; sourceTree = "<group>"; };
 		DA0B77BA25BD810600E008A8 /* ImageSegmentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageSegmentation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA0B77BD25BD810600E008A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA0B77BF25BD810600E008A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DA0B77C125BD810600E008A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA0B77C125BD810600E008A8 /* ImageSegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSegmentViewController.swift; sourceTree = "<group>"; };
 		DA0B77C425BD810600E008A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA0B77C625BD810700E008A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA0B77C925BD810700E008A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA0B77CB25BD810700E008A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA0B77DA25BDA22C00E008A8 /* SegmentClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentClass.swift; sourceTree = "<group>"; };
+		DA0B77DD25BDDDEF00E008A8 /* CGImage&UIImage+Resize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImage&UIImage+Resize.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA091EC225BF2B3E00DA58DF /* mlmodel */ = {
+			isa = PBXGroup;
+			children = (
+				DA091EC325BF2B3E00DA58DF /* DeepLabV3.mlmodel */,
+			);
+			path = mlmodel;
+			sourceTree = "<group>";
+		};
 		DA0B77B125BD810600E008A8 = {
 			isa = PBXGroup;
 			children = (
@@ -58,9 +78,15 @@
 			children = (
 				DA0B77BD25BD810600E008A8 /* AppDelegate.swift */,
 				DA0B77BF25BD810600E008A8 /* SceneDelegate.swift */,
-				DA0B77C125BD810600E008A8 /* ViewController.swift */,
-				DA0B77C325BD810600E008A8 /* Main.storyboard */,
+				DA091EBD25BEE7A800DA58DF /* BackgroundSelectionTableViewController.swift */,
+				DA0B77C125BD810600E008A8 /* ImageSegmentViewController.swift */,
+				DA091EB825BE652200DA58DF /* ARGBColor.swift */,
+				DA0B77DA25BDA22C00E008A8 /* SegmentClass.swift */,
+				DA091EB525BE597000DA58DF /* CGImage+ArrayBGRA.swift */,
+				DA0B77DD25BDDDEF00E008A8 /* CGImage&UIImage+Resize.swift */,
+				DA091EC225BF2B3E00DA58DF /* mlmodel */,
 				DA0B77C625BD810700E008A8 /* Assets.xcassets */,
+				DA0B77C325BD810600E008A8 /* Main.storyboard */,
 				DA0B77C825BD810700E008A8 /* LaunchScreen.storyboard */,
 				DA0B77CB25BD810700E008A8 /* Info.plist */,
 			);
@@ -137,9 +163,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA0B77C225BD810600E008A8 /* ViewController.swift in Sources */,
+				DA0B77C225BD810600E008A8 /* ImageSegmentViewController.swift in Sources */,
+				DA0B77DB25BDA22C00E008A8 /* SegmentClass.swift in Sources */,
+				DA091EB625BE597000DA58DF /* CGImage+ArrayBGRA.swift in Sources */,
+				DA091EC425BF2B3E00DA58DF /* DeepLabV3.mlmodel in Sources */,
 				DA0B77BE25BD810600E008A8 /* AppDelegate.swift in Sources */,
 				DA0B77C025BD810600E008A8 /* SceneDelegate.swift in Sources */,
+				DA091EB925BE652200DA58DF /* ARGBColor.swift in Sources */,
+				DA091EBE25BEE7A800DA58DF /* BackgroundSelectionTableViewController.swift in Sources */,
+				DA0B77DE25BDDDEF00E008A8 /* CGImage&UIImage+Resize.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62TKMM5MWT;
 				INFOPLIST_FILE = ImageSegmentation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +341,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62TKMM5MWT;
 				INFOPLIST_FILE = ImageSegmentation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

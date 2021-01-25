@@ -62,5 +62,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Source for Image Segmentation</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Source for Image Segmentation</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Save Segmented Image</string>
 </dict>
 </plist>
